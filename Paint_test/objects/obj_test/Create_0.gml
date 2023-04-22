@@ -67,4 +67,4 @@ repeat(10){array_push(temp_key_arr, key_summon())}
 var temp_stirng_arr=string_code("1234567890abcde哈解决掉瑟吉欧大呼", temp_key_arr[0]);
 show_debug_message(temp_stirng_arr);
 temp_stirng_arr=string_code(temp_stirng_arr, temp_key_arr[0])
-show_message(temp_stirng_arr);
+show_debug_message(temp_stirng_arr);
